@@ -4,7 +4,9 @@
 
 Connex is an aforesaid secure P2P message protocal using WebRTC for connections and GPG for identification, capable for group chats with reasonable timing.
 
-## Hub
+## Roles
+
+### Hub
 
 Also known as `server`, is required for the very first connection.
 
@@ -17,7 +19,7 @@ Also known as `server`, is required for the very first connection.
 
 1. Have no ability to read messages for the initial handshaking message is not readable without private keys.
 
-## Pod
+### Pod
 
 Also known as `client`, is the basic component of the connex network.
 
@@ -33,3 +35,7 @@ Also known as `client`, is the basic component of the connex network.
 1. Messages stored must be encrypted as received.
 2. Block unverified message transfer.
 3. Have no ability to read unauthorized messages for the initial handshaking message is not readable without private keys.
+
+## API
+
+*TBD*
